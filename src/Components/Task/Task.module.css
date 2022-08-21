@@ -1,0 +1,32 @@
+.wrapper{
+    padding: 10px 5px;
+    display: flex;
+    justify-content: space-between;
+}
+.wrapper input{
+    border: 2px solid rgb(77, 30, 248);
+    padding: 10px 20px;
+    min-width: 1150px;
+    border-radius: 10px;
+}
+.wrapper button{
+    background: rgb(77, 30, 248);
+    padding: 0 10px;
+    border: none;
+    border-radius: 10px;
+    color: #fff;
+    font-size: 16px;
+    font-family: 'Nunito', Roboto, system-ui, Tahoma, sans-serif;
+    cursor: pointer;
+}
+
+.wrapper button:active{
+    color: #ccc;
+    margin-top: 2px;
+}
+.addText{
+    position: absolute;
+    top: 157px;
+    color: red;
+    border-bottom: 1px dashed red;
+}

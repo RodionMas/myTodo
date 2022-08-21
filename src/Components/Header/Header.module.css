@@ -1,0 +1,8 @@
+.wrapper{
+    background: rgb(77, 30, 248);
+    text-align: center;
+    padding: 10px;
+}
+.wrapper h1,h2{
+    color: #fff;
+}

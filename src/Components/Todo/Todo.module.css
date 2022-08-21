@@ -1,0 +1,33 @@
+.wrapper{
+    padding: 10px 10px 0px 10px;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid #ccc;
+}
+.wrapper span{
+    padding-top: 15px;
+}
+.items img{
+    height: 40px;
+    cursor: pointer;
+
+}
+.items img+ img{
+    margin-left: 5px;
+}
+
+.items img:hover{
+    border: 1px solid #ccc;
+    border-radius: 10px;
+}
+.items img:active{
+    border: 2px solid #ccc;
+}
+.taskUnlock{
+    background: #000;
+    position: absolute;
+    height: 1px;
+    left: 10px;
+    margin-top: 11px;
+    opacity: 0.7;
+}
