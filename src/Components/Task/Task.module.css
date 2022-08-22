@@ -25,8 +25,7 @@
     margin-top: 2px;
 }
 .addText{
-    position: absolute;
-    top: 157px;
+    margin-left: 10px;
     color: red;
     border-bottom: 1px dashed red;
 }

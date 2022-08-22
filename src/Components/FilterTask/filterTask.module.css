@@ -1,0 +1,29 @@
+.wrapper{
+    display: flex;
+    justify-content: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.wrapper button{
+    background: rgb(122 89 243);
+    padding: 0 10px;
+    border: none;
+    border-radius: 10px;
+    color: #fff;
+    font-size: 16px;
+    font-family: 'Nunito', Roboto, system-ui, Tahoma, sans-serif;
+    cursor: pointer;
+    padding: 8px 13px;
+    transition: all 0.2s;
+}
+.wrapper button+ button{
+    margin-left: 10px;
+}
+
+.wrapper button:hover{
+    background: rgb(77, 30, 248);
+}
+.wrapper button:active{
+    padding-bottom: 1px;
+}
