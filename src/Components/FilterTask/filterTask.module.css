@@ -27,3 +27,6 @@
 .wrapper button:active{
     padding-bottom: 1px;
 }
+.wrapper .activeBtn{
+    background-color: rgb(77, 30, 248);
+}

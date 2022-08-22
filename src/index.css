@@ -12,25 +12,16 @@ body {
 
 .load {
     height: 100vh;
-    background: rgb(63, 94, 251);
-    background: radial-gradient(circle, rgba(63, 94, 251, 1) 0%, rgba(252, 70, 107, 1) 100%);
+    background: rgb(77, 30, 248);
+    /* background: radial-gradient(circle, rgba(63, 94, 251, 1) 0%, rgba(252, 70, 107, 1) 100%); */
 }
 
 .loading {
     font-size: 40px;
-    color: rgb(24 22 34);
+    color: #fff;
     font-weight: 900;
     position: absolute;
     top: 50%;
     left: 40%;
-    animation: rotation 40s infinite linear;
 }
 
-    @keyframes rotation {
-        from {
-            transform: rotate(0deg);
-        }
-        to {
-            transform: rotate(359deg);
-        }
-    }
